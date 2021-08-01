@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+:root {
+    --brand: #01569e;
+    --white: #ffffff;
+    --lightgrey:#eef2f5;
+    --orange:#f65446;
+    --grey:#2c3941;
+}
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--grey);
+    min-width: 100%;
+    background-color: var(--lightgrey);
+}
+
+.head{
+    border-bottom: 1px var(--lightgrey) solid;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--white);
+}
+
+.logo{
+    font-size: 30px;
+    font-weight: 400;
+    display: inline-flex;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.bold{
+    font-weight: 700;
+}
+
+.nav{
+    text-align: right;
+    font-size: 18px;
+    font-weight: 600;
+}
+.nav a{
+    margin: 0 20px;
+}
+
+.nav :hover{
+    color: var(--orange);
+}
+
+.out-btn{
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.out-btn:hover{
+    color: var(--white);
+    background-color: var(--orange);
+}
+
+.txt-btn{
+    color: var(--orange);
+    border-left: 1px solid var(--orange);
+    padding-left: 40px;
+}
+
+.none{
+    display: none;
+}
+
+.contend{
+    text-align: center;
+    display: grid;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.contend h1{
+    text-align: center;
+    width: 800px;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.contend img{
+    width: 300px;
+    justify-self: center;
+}
