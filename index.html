@@ -7,11 +7,20 @@
     <title>ResumeDesign</title>
 
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" href="assets/images/icon.svg" type="image/x-icon">
+
+    <script src="assets/lib/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+    <script src="assets/lib/jquery-ui-1.12.1/jquery-ui.min.css"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
     <div class="head">
         <div class="logo"> <img src="assets/images/logo.svg" alt="logo"> <span class="bold">Resume</span>design</div>
-        <span class="nav">
+        <span class="menu" id="menu">
+            <img src="assets/images/menu.svg" alt="">
+        </span>
+        <span class="nav" id="nav">
             <a>Resume</a>
             <a class="none">Dashboard</a>
             <a class="none">Profile</a>
@@ -22,12 +31,55 @@
         </span>
     </div>
 
-    <div class="contend">
-        <img src="assets/images/banner.svg" alt="banner">
+    <section class="contend">
+        <img src="assets/images/bann.svg" alt="banner">
         <h1>
-            Effortlessly make a job-worthy resume and cover letter that gets you hired faster
+            Effortlessly make a job-worthy resume that gets you hired faster. 
         </h1>
-    </div>
+        <h6>
+            Save time with our easy 3-step resume builder. No more writer’s block or formatting difficulties in Word. Rapidly make a perfect resume employers love.
+        </h6>
+        <button class="btn-big">Design Resume</button>       
+    </section>
+
+    <section class="category">
+        <div class="card">
+            <h2><i class="fas fa-file-contract"></i> Simple</h2>
+            <img src="assets/images/(2).jpg" alt="card img">
+            <p>Clean, timeless templates with a classic balanced structure</p>
+            <a href="#">Explore</a>
+        </div><div class="card">
+            <h2><i class="fas fa-feather-alt"></i> Modern</h2>
+            <img src="assets/images/(4).jpg" alt="card img">
+            <p>A current and stylish feel for forward-thinking candidates in innovative fields</p>
+            <a href="#">Explore</a>
+        </div><div class="card">
+            <h2><i class="fas fa-magic"></i> Creative</h2>
+            <img src="assets/images/(1).jpg" alt="card img">
+            <p>A bold, original feel perfect for artistic fields and contemporary companies</p>
+            <a href="#">Explore</a>
+        </div><div class="card">
+            <h2><i class="fas fa-user-tie"></i> Professional</h2>
+            <img src="assets/images/(3).jpg" alt="card img">
+            <p>Job-winning templates to showcase professionalism and expertise</p>
+            <a href="#">Explore</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <div class="logo"> <img src="assets/images/footer_logo.svg" alt="logo"> <span class="bold">Resume</span>design</div>
+                <p>We are a team of designers and developers that create high quality Resume templates.</p>
+            </div>     
+        </div>
+        <div class="copy">
+            &copy; ResumeDesign 2021
+        </div>  
+    </footer>
+    
+
+    <script src="assets/js/script.js"></script>
 
 </body>
 </html>
